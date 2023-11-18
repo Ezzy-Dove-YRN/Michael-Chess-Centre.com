@@ -328,7 +328,8 @@ footer .footer span a:hover {
 @media screen and (max-width: 1060px) { 
 	.contactMenu { 
 		flex-direction: column; 
-		align-items: center; 
+		align-items: center;
+   margin: auto; 
 	} 
 
 	.rightside1 { 
