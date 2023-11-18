@@ -334,7 +334,7 @@ footer .footer span a:hover {
 	.rightside1 { 
 		display: flex; 
 		flex-direction: column; 
-		margin-left: 10px; 
+		margin-left: 0px; 
 	} 
 
 	.content1 { 
