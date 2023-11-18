@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MICHAEL CHESS</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="slideshow.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    .mentalhomepix{
+      background-color: aqua;
+      margin-bottom: 20px;
+      height: 80px;
+    }
+    .gift{
+      font-size:30px;
+      cursor:pointer;
+      padding-top: 10px;
+      margin-top: 20px;
+    }
+    .slidesh{
+      width: 300px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="mentalhomepix"> 
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html">Sign Up</a>
+      </div>
+    </div>
+    <span class="gift" onclick="openNav()">&#9776; <img src="logo.png" alt="Logo"> </span> <span style="font-weight: 800; font-size: large;">Michael Chess Center</span> <button onclick="openNav()" style="background-color: inherit; cursor: pointer; font-weight: 800; right: 0;">About Us</button>
+    </div>
+
+<main>   
+  <h2>Image Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chess.jpg">
+      <img src="chess.jpg" alt="Danstan" width="600" height="400">
+    </a>
+    <div class="desc">Danstan Asati - President</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="michael.jpeg">
+      <img src="michael.jpeg" alt="Michael" width="600" height="400">
+    </a>
+    <div class="desc">Michael Asati - 
+      Director Of Coordinationt</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="zadock.jpeg">
+      <img src="zadock.jpeg" alt="zadock" width="600" height="400">
+    </a>
+    <div class="desc">Zadock Nyakundi - 
+      Director Of Volunteer Services</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chessy.jpg">
+      <img src="chessy.jpg" alt="Students" width="600" height="400">
+    </a>
+    <div class="desc">Chess In school</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="danford.jpeg">
+      <img src="danford.jpeg" alt="danford" width="600" height="400">
+    </a>
+    <div class="desc">Danford Mainga - 
+      Director Of Communications</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ezzy.jpg">
+      <img src="ezzy.jpg" alt="Developer" width="600" height="400">
+    </a>
+    <div class="desc">Ezzy Dove YRN - 
+      Developer</div>
+  </div>
+</div>
+</main>  
+<script src="script.js"></script>
+<script>
+  function openNav() {
+document.getElementById("myNav").style.width = "50%";
+}
+
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>
+
+
