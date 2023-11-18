@@ -329,13 +329,12 @@ footer .footer span a:hover {
 	.contactMenu { 
 		flex-direction: column; 
 		align-items: center;
-   margin: auto; 
 	} 
 
 	.rightside1 { 
 		display: flex; 
 		flex-direction: column; 
-		margin-left: 0px; 
+		margin-left: 10px; 
 	} 
 
 	.content1 { 
